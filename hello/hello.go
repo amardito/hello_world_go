@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
     "log"
@@ -7,7 +7,7 @@ import (
     "hello_world/customLog"
 )
 
-func main() {
+func Run() {
     // Set properties of the predefined Logger, including
     // the log entry prefix and a flag to disable printing
     // the time, source file, and line number.
